@@ -19,6 +19,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    /**
+     *  修改.....................
+     */
+    
     AView *view = [[[NSBundle mainBundle] loadNibNamed:@"AView" owner:self options:nil] lastObject];
     view.frame = CGRectMake(0, 0, 30, 100);
     [self.view addSubview:view];
